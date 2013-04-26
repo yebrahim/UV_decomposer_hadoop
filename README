@@ -1,0 +1,6 @@
+Author: Yasser Elsayed
+yasser.ebrahim@gmail.com
+
+A simple Hadoop implementation of a UV iterative decomposition algorithm for collaborative filtering recommender systems. This was done as part of a class project.
+
+Given a ratings file formatted as <userid, movieid, rating, date> on each line, this algorithm will start with two U and V matrices that are randomly initialized (I used a particular starting value), the algorithm iterates to compute new values for the U and V matrix elements. An optimization is made to recompute an element several times to speed up convergence, since all data pertaining to one element should be already loaded inside its loop iteration. Just point the code to the input directory containing the data, et voila.
