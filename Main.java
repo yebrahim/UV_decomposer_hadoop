@@ -1,5 +1,4 @@
 //Author: Yasser Elsayed
-//yasser.ebrahim@gmail.com
 
 package ch.epfl.advdb;
 
