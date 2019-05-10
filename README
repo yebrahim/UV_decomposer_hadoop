@@ -1,5 +1,4 @@
 Author: Yasser Elsayed
-yasser.ebrahim@gmail.com
 
 A simple Hadoop implementation of a UV iterative decomposition algorithm for collaborative filtering recommender systems. This was done as part of a class project.
 
